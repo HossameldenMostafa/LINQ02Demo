@@ -214,6 +214,15 @@ namespace LINQ
             //    Console.WriteLine(name);
             //}
             #endregion
+            #region Q21
+            //var pairedSequence = Source.ProductList
+            //   .Zip(Source.CustomerList, (p, c) => $"{p.ProductName} sold to {c.CustomerName}");
+
+            //foreach (var pair in pairedSequence)
+            //{
+            //    Console.WriteLine(pair);
+            //}
+            #endregion
 
 
             Console.ReadKey();
