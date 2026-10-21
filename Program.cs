@@ -144,6 +144,19 @@ namespace LINQ
             //    Console.WriteLine(id);
             //}
             #endregion
+            #region Q14
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+
+            //var uniqueCountries = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
+
+            //foreach (var country in uniqueCountries)
+            //{
+            //    Console.WriteLine(country);
+            //}
+            #endregion
+
+
             Console.ReadKey();
         }
     }
