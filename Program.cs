@@ -113,6 +113,12 @@ IEnumerable<object> customerGroupsQuery = null;
 
 //Console.WriteLine($"Total units in stock: {totalUnitsInStock}");
 #endregion
+#region Q11
+//decimal cheapestPrice = Source.ProductList.Min(p => p.UnitPrice);
+//decimal mostExpensivePrice = Source.ProductList.Max(p => p.UnitPrice);
 
+//Console.WriteLine($"Cheapest Price: {cheapestPrice:C2}");
+//Console.WriteLine($"Most Expensive Price: {mostExpensivePrice:C2}");
+#endregion
 
 Console.ReadKey();
