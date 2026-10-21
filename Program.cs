@@ -42,6 +42,13 @@ namespace LINQ
             //    Console.WriteLine(product);
             //}
             #endregion
+            #region Q4
+            //bool allSeafoodInStock = Source.ProductList
+            //    .Where(p => p.Category == "Seafood")
+            //    .All(p => p.UnitsInStock > 0);
+
+            //Console.WriteLine($"Are all Seafood products in stock? {allSeafoodInStock}");
+            #endregion
 
             Console.ReadKey();
 		}
