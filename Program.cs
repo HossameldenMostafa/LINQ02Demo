@@ -83,6 +83,17 @@ namespace LINQ
             //    }
             //}
             #endregion
+            #region Q8
+            //var categoriesWithManyProducts = Source.ProductList
+            //   .GroupBy(p => p.Category)
+            //   .Where(g => g.Count() > 3)
+            //   .Select(g => g.Key);
+
+            //foreach (var category in categoriesWithManyProducts)
+            //{
+            //    Console.WriteLine($"Category with > 3 products: {category}");
+            //}
+            #endregion
 
             Console.ReadKey();
 		}
