@@ -107,5 +107,12 @@ IEnumerable<object> customerGroupsQuery = null;
 //}
 
 #endregion
+#region Q10
+//int totalUnitsInStock = Source.ProductList
+//    .Sum(p => p.UnitsInStock);
+
+//Console.WriteLine($"Total units in stock: {totalUnitsInStock}");
+#endregion
+
 
 Console.ReadKey();
