@@ -193,6 +193,16 @@ namespace LINQ
             //}
             //Console.WriteLine();
             #endregion
+            #region Q19
+            //var evenNumbers = Enumerable.Range(1, 30)
+            //   .Where(n => n % 2 == 0);
+
+            //foreach (var num in evenNumbers)
+            //{
+            //    Console.Write(num + " ");
+            //}
+            //Console.WriteLine();
+            #endregion
 
 
             Console.ReadKey();
