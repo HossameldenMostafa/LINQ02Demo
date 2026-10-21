@@ -155,7 +155,15 @@ namespace LINQ
             //    Console.WriteLine(country);
             //}
             #endregion
+            #region Q15
+            //Dictionary<int, Product> productDict = Source.ProductList
+            //                        .ToDictionary(p => p.ProductID);
 
+            //if (productDict.TryGetValue(18, out Product? product))
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
 
             Console.ReadKey();
         }
