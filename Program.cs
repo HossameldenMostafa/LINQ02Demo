@@ -17,6 +17,20 @@ namespace LINQ
             //    Console.WriteLine(product);
             //}
             #endregion
+            #region Q2
+            //int pageSize = 5;
+            //int pageNumber = 2;
+
+            //var page2Products = Source.ProductList
+            //    .Skip((pageNumber - 1) * pageSize)
+            //    .Take(pageSize)
+            //    .ToList();
+
+            //foreach (var product in page2Products)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
 
             Console.ReadKey();
 		}
