@@ -164,6 +164,13 @@ namespace LINQ
             //    Console.WriteLine(product);
             //}
             #endregion
+            #region Q16
+            //Product? firstExpensive = Source.ProductList
+            //        .First(p => p.UnitPrice > 50.00m);
+
+            //Console.WriteLine(firstExpensive);
+            #endregion
+
 
             Console.ReadKey();
         }
