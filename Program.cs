@@ -183,6 +183,17 @@ namespace LINQ
             //    Console.WriteLine(productOver500);
             //}
             #endregion
+            #region Q18
+            //var multTable7 = Enumerable.Range(1, 12)
+            //   .Select(i => i * 7);
+
+            //foreach (var val in multTable7)
+            //{
+            //    Console.Write(val + " ");
+            //}
+            //Console.WriteLine();
+            #endregion
+
 
             Console.ReadKey();
         }
