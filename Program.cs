@@ -65,6 +65,24 @@ namespace LINQ
             //    Console.WriteLine($"Category: {group.Key}, Count: {group.Count()}");
             //}
             #endregion
+            #region Q7
+            //var categoryProductNames = Source.ProductList
+            //   .GroupBy(p => p.Category)
+            //   .Select(g => new
+            //   {
+            //       Category = g.Key,
+            //       ProductNames = g.Select(p => p.ProductName)
+            //   });
+
+            //foreach (var item in categoryProductNames)
+            //{
+            //    Console.WriteLine($"Category: {item.Category}");
+            //    foreach (var name in item.ProductNames)
+            //    {
+            //        Console.WriteLine($" - {name}");
+            //    }
+            //}
+            #endregion
 
             Console.ReadKey();
 		}
