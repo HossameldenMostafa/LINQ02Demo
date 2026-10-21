@@ -31,6 +31,17 @@ namespace LINQ
             //    Console.WriteLine(product);
             //}
             #endregion
+            #region Q3
+            //var cheapProducts = Source.ProductList
+            //   .OrderBy(p => p.UnitPrice)
+            //   .TakeWhile(p => p.UnitPrice < 25.00m)
+            //   .ToList();
+
+            //foreach (var product in cheapProducts)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
 
             Console.ReadKey();
 		}
