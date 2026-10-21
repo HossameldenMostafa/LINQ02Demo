@@ -49,6 +49,13 @@ namespace LINQ
 
             //Console.WriteLine($"Are all Seafood products in stock? {allSeafoodInStock}");
             #endregion
+            #region Q5
+            //int[] ids = { 3, 9, 13, 18 };
+
+            //bool containsNine = ids.Contains(9);
+
+            //Console.WriteLine($"Does the list contain 9? {containsNine}");
+            #endregion
 
             Console.ReadKey();
 		}
