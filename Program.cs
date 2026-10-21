@@ -170,7 +170,19 @@ namespace LINQ
 
             //Console.WriteLine(firstExpensive);
             #endregion
+            #region Q17
+            //Product? productOver500 = Source.ProductList
+            //        .FirstOrDefault(p => p.UnitPrice > 500.00m);
 
+            //if (productOver500 == null)
+            //{
+            //    Console.WriteLine("No product found with price > $500 (returns null safely).");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(productOver500);
+            //}
+            #endregion
 
             Console.ReadKey();
         }
