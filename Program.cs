@@ -56,6 +56,15 @@ namespace LINQ
 
             //Console.WriteLine($"Does the list contain 9? {containsNine}");
             #endregion
+            #region Q6
+            //var productGroups = Source.ProductList
+            //   .GroupBy(p => p.Category);
+
+            //foreach (var group in productGroups)
+            //{
+            //    Console.WriteLine($"Category: {group.Key}, Count: {group.Count()}");
+            //}
+            #endregion
 
             Console.ReadKey();
 		}
