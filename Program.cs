@@ -203,6 +203,17 @@ namespace LINQ
             //}
             //Console.WriteLine();
             #endregion
+            #region Q20
+            //var first3Products = Source.ProductList.Take(3).Select(p => p.ProductName);
+            //var first3Customers = Source.CustomerList.Take(3).Select(c => c.CustomerName);
+
+            //var concatenatedSequence = first3Products.Concat(first3Customers);
+
+            //foreach (var name in concatenatedSequence)
+            //{
+            //    Console.WriteLine(name);
+            //}
+            #endregion
 
 
             Console.ReadKey();
